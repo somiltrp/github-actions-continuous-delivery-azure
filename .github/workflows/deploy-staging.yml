@@ -58,7 +58,7 @@ jobs:
     name: Deploy app container to Azure
     steps:
       - name: "Login via Azure CLI"
-        uses: SomilTripathi
+        uses: Somil@Tripathi
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
